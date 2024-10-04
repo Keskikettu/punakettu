@@ -1,0 +1,146 @@
+/*div {
+    
+    border: 1px;
+    border: black;
+    border: solid;
+    padding: 20px; 
+    margin: 20px
+}*/
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+html,
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Roboto", sans-serif;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover:not(.active) {
+    background-color: #111;
+}
+
+.active {
+    background-color: #04AA6D;
+}
+
+header {
+    background-image: url("luca-bravo-ESkw2ayO2As-unsplash.jpg");
+    background-position: center;
+    background-size: cover;
+    width: 90%;
+    margin: auto;
+    text-align: center;
+}
+
+.sivu1 {
+    background-image: url("birger-strahl-AIs1oGS2pHQ-unsplash.jpg");
+    background-position: center;
+    background-size: cover;
+    width: 90%;
+    margin: auto;
+    text-align: center;
+}
+
+.sivu2 {
+    background-image: url("nathan-anderson-AjZjBEjQ5Cw-unsplash.jpg");
+    background-position: center;
+    background-size: cover;
+    width: 90%;
+    margin: auto;
+    text-align: center;
+}
+
+.sivu3 {
+    background-image: url("ray-hennessy-9rloii_qmmw-unsplash.jpg");
+    background-position: center;
+    background-size: cover;
+    width: 90%;
+    margin: auto;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 36px;
+    text-align: center;
+    color: white;
+    padding: 10px 10px 90px 10px;
+    margin: 10px;
+}
+
+section {
+    width: 90%;
+    margin: auto;
+    font-size: 16px;
+}
+
+
+section img {
+    width: 100%;
+    padding: 20px 0px 20px 0px;
+}
+
+.row {
+    width: 90%;
+    margin: auto;
+}
+
+footer {
+    width: 90%;
+    margin: auto;
+    padding: 10px;
+    font-size: 14px;
+    background-color: rgb(127, 116, 116);
+}
+
+footer p {
+    text-align: center;
+
+}
+
+
+
+@media only screen and (min-width: 650px) {
+    body {
+        background-color: beige;
+        width: 75%;
+    }
+
+}
+
+@media only screen and (min-width: 1025px) {
+    body {
+        background-color: beige;
+        width: 60%;
+    }
+    .column {
+        float: left;
+        width: 50%;
+    }
+    .row::after {
+        content: "";
+        display: table;
+        clear: both;
+    }
+    
+
+}
